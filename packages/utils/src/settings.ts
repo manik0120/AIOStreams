@@ -85,7 +85,7 @@ export class Settings {
     : 16106127360; // 15GiB
   public static readonly MAX_TIMEOUT = process.env.MAX_TIMEOUT
     ? parseInt(process.env.MAX_TIMEOUT)
-    : 50000;
+    : 10000;
   public static readonly MIN_TIMEOUT = process.env.MIN_TIMEOUT
     ? parseInt(process.env.MIN_TIMEOUT)
     : 1000;
@@ -94,7 +94,7 @@ export class Settings {
     : 30000;
   public static readonly DEFAULT_TIMEOUT = process.env.DEFAULT_TIMEOUT
     ? parseInt(process.env.DEFAULT_TIMEOUT)
-    : 15000;
+    : 5000;
   public static readonly DEFAULT_TORRENTIO_TIMEOUT = process.env
     .DEFAULT_TORRENTIO_TIMEOUT
     ? parseInt(process.env.DEFAULT_TORRENTIO_TIMEOUT)
