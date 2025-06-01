@@ -176,7 +176,7 @@ export class BaseWrapper {
     );
 
     let response = useProxy
-      ? uFetch(url, {
+      ? fetch(url, {
  
           method: 'GET',
           headers: this.headers,
